@@ -1,0 +1,159 @@
+
+<style>
+
+body{
+  color: #1D5C63;
+	text-align: justify;
+	text-decoration: none;
+}
+
+body{
+	background-image: url(https://sf2.auto-moto.com/wp-content/uploads/sites/9/2021/02/les-conseils-pour-bien-se-lancer-dans-le-monde-du-trading.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #EDE6DB;
+}
+
+h1{
+	font-size: 32px;
+	line-height: 1;
+	letter-spacing: 1px;
+	font-weight: bold;
+	justify-content: center;
+	color: #1D5C63;
+}
+
+h2{
+	font-size: 23px;
+	line-height: 1.8;
+	letter-spacing: 1px;
+	font-weight: 600;
+	color: #1D5C63;
+}
+
+a{
+  color: #1D5C63;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+ }
+
+div{
+	text-align:justify-all;
+	text-justify:values;
+}
+
+ /*Custom design with class*/
+
+ .container{
+ 	width: 700px;
+ 	margin:40px auto;
+ }
+
+@media(max-width: 650px){
+ 	.container{
+ 		width: 350px
+ 	}
+ }
+
+ .card-white{
+ 	background-color:white;
+    padding: 50px;
+    box-shadow: 0px 10px 35px rgb(0,0,0,0,1);
+    border-radius: 5px;
+    text-align: justify-all;
+    margin: 20px;
+ }
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-orange{
+	background-color: #EDE6DB;
+	color: white;
+	padding: 15px 30px;
+	border-radius: 10px;
+}
+
+.btn-orange:hover {
+	background-color: #D3D3D3;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 15px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: #FFC0CB
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: #000000
+}
+
+.btn-blue {
+	background-color:  #1D5C63;
+	padding: 4px 8px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Abel', sans-serif;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+</style> 
